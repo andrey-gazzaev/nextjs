@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import { Photo } from "../../model/photo.model"
+import { Photo } from "@/model/photo.model"
 
 interface PhotoProps {
     readonly photo: Photo

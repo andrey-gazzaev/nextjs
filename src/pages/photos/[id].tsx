@@ -1,9 +1,9 @@
 import assert from "assert";
 import { GetServerSideProps } from "next";
 
-import Photo from "./components/Photo/Photo";
-import { PhotoDto } from "./model/photo.dto";
-import { PhotoMapper } from "./model/photo.mapper";
+import Photo from "@/components/Photo/Photo";
+import { PhotoDto } from "@/model/photo.dto";
+import { PhotoMapper } from "@/model/photo.mapper";
 
 interface PhotoProps {
     readonly photo: Photo | null

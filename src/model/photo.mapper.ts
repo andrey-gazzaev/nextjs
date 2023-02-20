@@ -1,6 +1,7 @@
 import { PhotoDto } from "./photo.dto";
 import { Photo } from "./photo.model";
 
+
 export namespace PhotoMapper {
     export function mapFrom(photoDto: PhotoDto): Photo {
         return {

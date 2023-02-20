@@ -1,11 +1,10 @@
 import { GetServerSideProps } from 'next'
 import Link from 'next/link';
 
-import Photos from './components/Photos/Photos';
-import { PhotoDto } from './model/photo.dto';
-import { PhotoMapper } from './model/photo.mapper';
-import { Photo } from './model/photo.model';
-
+import Photos from '@/components/Photos/Photos';
+import { PhotoDto } from '@/model/photo.dto';
+import { PhotoMapper } from '@/model/photo.mapper';
+import { Photo } from '@/model/photo.model';
 
 interface PhotoListProps {
     readonly photos: readonly Photo[];

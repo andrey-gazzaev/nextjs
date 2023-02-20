@@ -1,7 +1,6 @@
+import { Photo } from "@/model/photo.model";
 import Image from "next/image";
 import Link from "next/link";
-
-import { Photo } from "../../model/photo.model";
 
 import classes from './Photos.module.css'
 
